@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li,
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5m;
+    border: 1rem solid rgba(165, 164, 164, 0.349);
+    border-width: thin;
+    border-bottom: -4rem;
+}
+
+
+.logo {
+    margin: 0.5rem 0 0.5rem 2rem;
+    cursor: pointer;
+    width: 2.5em;
+    height: auto;
+}
+
+.n_links li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+
+.info ul {
+    padding-right: 3rem;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+    text-decoration-thickness: 0.2em;
+    text-decoration-color: red;
+
+}
+
+main div {
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.product {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.product img {
+    display: flex;
+    display: inline-block;
+    width: 15rem;
+    height: auto;
+
+}
+
+.product div {
+    border: 0.5rem solid black;
+    border-width: thin;
+    transition: all 1s;
+}
+
+.product div:hover {
+    transform: scale(1.1);
+}
